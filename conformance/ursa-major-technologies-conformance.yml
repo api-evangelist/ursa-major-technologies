@@ -1,0 +1,65 @@
+generated: '2026-08-05'
+method: searched
+source: https://ursamajor.com/capabilities/
+note: >-
+  Ursa Major Technologies publishes no API, so there is no API-layer conformance
+  surface (no OAuth 2.0, OIDC, RFC 9457, JSON:API, FAPI, SCIM or OData claim to
+  assert against). What it does publish is a manufacturing quality and defense
+  cybersecurity certification posture, stated verbatim on its Capabilities page:
+  "AS9100D, ISO9001, and CMMC L2 Certified". Those are recorded below. This is a
+  hardware-manufacturer compliance program, NOT an API security or privacy
+  attestation — it says nothing about an API surface, because there is none.
+standards:
+- id: as9100d
+  name: AS9100D — Aerospace Quality Management Systems
+  conforms: true
+  scope: manufacturing
+  evidence:
+    claim: >-
+      "As an AS9100D-certified manufacturer and CMMC Level 2 certified, we uphold
+      the highest aerospace standards across our operation, from design through
+      delivery, and cybersecurity at every step."
+    url: https://ursamajor.com/capabilities/
+    http_status: 200
+    fetched: '2026-08-05'
+    artifact: >-
+      A "Download AS9100D Certificate" link is offered on the Capabilities page.
+- id: iso-9001
+  name: ISO 9001 — Quality Management Systems
+  conforms: true
+  scope: manufacturing
+  evidence:
+    claim: 'Stated on the Capabilities page: "AS9100D, ISO9001, and CMMC L2 Certified".'
+    url: https://ursamajor.com/capabilities/
+    http_status: 200
+    fetched: '2026-08-05'
+- id: cmmc-level-2
+  name: CMMC Level 2 — Cybersecurity Maturity Model Certification (US DoD)
+  conforms: true
+  scope: cybersecurity
+  evidence:
+    claim: 'Stated on the Capabilities page: "AS9100D, ISO9001, and CMMC L2 Certified".'
+    url: https://ursamajor.com/capabilities/
+    http_status: 200
+    fetched: '2026-08-05'
+    note: >-
+      CMMC Level 2 aligns to NIST SP 800-171 and governs the handling of
+      Controlled Unclassified Information by defense contractors.
+api_standards:
+  note: >-
+    Not applicable. No public API contract exists to conform to anything. Searched
+    2026-08-05; see well-known/ursa-major-technologies-well-known.yml for the full
+    probe record.
+  checked:
+  - id: oauth2
+    conforms: false
+    evidence: No OAuth surface; /.well-known/oauth-authorization-server returned 404.
+  - id: oidc
+    conforms: false
+    evidence: /.well-known/openid-configuration returned 404.
+  - id: rfc9457
+    conforms: false
+    evidence: No OpenAPI or error catalog published.
+  - id: rfc9116
+    conforms: false
+    evidence: /.well-known/security.txt returned 404 — no security.txt published.

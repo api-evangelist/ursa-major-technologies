@@ -1,0 +1,21 @@
+{
+  "repo": "ursa-major-technologies",
+  "feeds": [
+    {
+      "source": "https://ursamajor.com/space/",
+      "feed_url": "https://ursamajor.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://ursamajor.com/news/",
+      "feed_url": "https://ursamajor.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-06T14:08:46Z"
+}
