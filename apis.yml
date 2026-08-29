@@ -19,6 +19,17 @@ description: 'Ursa Major Technologies Inc. is an American aerospace and defense 
   it publishes no public developer API, SDK, CLI, developer portal or machine-readable
   API contract of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/ursa-major-technologies/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://ursamajor.com/wp-content/uploads/2025/08/logo.svg
 x-type: company
 x-source: harvest:secondary-market
