@@ -64,5 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ursa Major Technologies is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/ursa-major-technologies_stock/
+Ursa Major Technologies Inc. is an American aerospace and defense propulsion manufacturer founded in 2015 by Joe Laurienti, a former SpaceX and Blue Origin propulsion engineer, and headquartered at 19750 Co Rd 7 in Berthoud, Colorado, with additive manufacturing operations in Youngstown, Ohio. The company designs, builds and hot-fire tests liquid rocket engines, solid rocket motors and in-space propulsion systems for space launch, hypersonics and U.S. and allied defense customers. Its product line includes the 5,000 lbf Hadley oxygen-rich staged-combustion liquid engine — the first Ursa Major engine to reach flight qualification for hypersonic missions — and Draper, a storable, throttleable, restartable engine for tactical hypersonic strike, missile defense and rapid in-space maneuver, alongside a solid rocket motor line validated through static fire and a chemical propulsion capability for tactical satellite bus systems. Ursa Major was the first American company to successfully fire an oxygen-rich staged combustion engine; it states it has delivered more than 100 engines and logged over 100,000 seconds of hotfire testing, with engines and motors more than 80 percent 3D printed by mass. The company is AS9100D, ISO 9001 and CMMC Level 2 certified. Ursa Major is a hardware manufacturer selling to government and prime-contractor customers: it publishes no public developer API, SDK, CLI, developer portal or machine-readable API contract of any kind.
+
+**Areas:** Company · Aerospace · Defense · Propulsion · Rocket Engines · Solid Rocket Motors · Hypersonics · Space · Satellite · Missile Defense · 3D Printing · Manufacturing
+
+## Ursa Major Technologies on APIs.io
+
+Everything profiled for Ursa Major Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ursa-major-technologies/](https://apis.io/providers/ursa-major-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ursa Major Technologies Domain Security](https://apis.io/security/ursa-major-technologies/ursa-major-technologies-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ursamajor.com/)
+- [Blog](https://ursamajor.com/news/)
+- [Terms of service](https://ursamajor.com/terms/)
+- [Privacy policy](https://ursamajor.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 15.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ursa-major-technologies/](https://apis.io/providers/ursa-major-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ursa Major Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ursa-major-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
